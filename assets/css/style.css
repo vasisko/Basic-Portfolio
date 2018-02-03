@@ -44,7 +44,7 @@ nav li {
     font-size: .9rem;
 }
 
- /* MAIN CONTENT STYLES */
+/* MAIN CONTENT STYLES */
 
 #maincontent {
         width: 960px;
@@ -155,8 +155,28 @@ footer {
     z-index: 1;
     width: 285px;
 }
-
 #portfolio li{
     display: inline-block;
     padding-right: 10px;
+}
+
+/* CONTACT PAGE:  additional styles */
+form {
+    font-size: .9rem;
+}
+input{
+    font-size: .8rem;
+    color: #ccc;
+    width: 100%;
+}
+input[type=submit] {
+    width:100px; 
+    padding:10px;
+    background-color: #4aaaa5;
+    font-size: 1em;
+    color: #fff;
+}
+input[type=textarea]{
+    height: 275px;
+    width: 100%;
 }
