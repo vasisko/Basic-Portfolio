@@ -176,7 +176,7 @@ input[type=submit] {
     font-size: 1em;
     color: #fff;
 }
-input[type=textarea]{
+input[name=comment]{
     height: 275px;
     width: 100%;
 }
